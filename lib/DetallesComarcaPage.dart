@@ -17,7 +17,11 @@ class DetallesComarcaPage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Image.network(comarca['img']),
+            Image.network(
+                comarca['img'],
+                width: 500,
+                height: 500,
+            ),
             Text(
               comarca['comarca'],
               style: TextStyle(fontSize: 30),

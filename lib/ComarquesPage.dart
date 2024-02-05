@@ -33,8 +33,8 @@ class ComarquesPage extends StatelessWidget {
                   Image.network(
                     comarca['img'],
                     fit: BoxFit.cover,
-                    width: double.infinity,
-                    height: double.infinity,
+                    width: 1500,
+                    height: 300,
                   ),
                   Padding(
                     padding: const EdgeInsets.all(8.0),
